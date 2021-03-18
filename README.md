@@ -6,3 +6,5 @@ Notebooks and material for the tutorial on networks analysis.
 
 Notebook to test the Reddit Pushshift API: `Reddit_Pushshift_API.ipynb`
 
+![Reddit neighbors](redditneighbors.png "Reddit neighbors")
+
