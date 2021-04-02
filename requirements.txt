@@ -3,3 +3,4 @@ networkx
 matplotlib
 numpy
 scipy
+littleballoffur
