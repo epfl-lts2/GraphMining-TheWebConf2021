@@ -12,5 +12,5 @@ The Tutorial will explore the world of (large) graphs using the following notebo
 * `04_ML_on_graphs.ipynb` proposes to experiment with unsupervised and semi-supervised machine learning on graphs,
 * `05_Reddit_Pushshift_API.ipynb` show in practice how to explore the Reddit social network through the Reddit Pushshift API.
 
-![Reddit neighbors](redditneighbors.png "Reddit neighbors")
+![Reddit neighbors](figures/redditneighbors.png "Reddit neighbors")
 
