@@ -1,7 +1,0 @@
-pandas
-networkx
-matplotlib
-numpy
-scipy
-littleballoffur
-louvain
