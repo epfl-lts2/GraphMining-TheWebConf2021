@@ -1,0 +1,15 @@
+name: graphmining-twc21
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - numpy
+  - pandas
+  - networkx
+  - matplotlib
+  - pandas
+  - scipy
+  - networkit==7.1
+  - louvain
+  - pip:
+    - littleballoffur
