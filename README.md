@@ -1,9 +1,26 @@
-# WebConfTuto
+# Large Scale Graph Mining: Visualization, Exploration, and Analysis
 
-Notebooks and material for the tutorial on networks analysis.
+This repository contains notebooks and material for the tutorial on large networks analysis, presented at The Web Conf 2021.
 
-You can run them online by clicking on the binder button
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/epfl-lts2/GraphMining-TheWebConf2021/HEAD) 
+You can find more information on the [Tutorial webpage](https://lts2.epfl.ch/reproducible-research/graph-exploration/).
+
+# Program
+
+* Introduction, setting up the environment, general presentation, building a graph from data using Python modules Pandas and Networkx.
+* Standard network properties (small world, hubs, centrality, page rank, degree distribution), experiments with Python module Networkx.
+* Graph visualization with Gephi. Layouts, visualizing node properties with color, size. Communities, centrality, page rank. Limits of visualization.
+* Principles of graph exploration and sampling. Reducing to a subgraph of interest with graph sampling, experiments on small toy graph models with Python library Little ball of Fur https://github.com/benedekrozemberczki/littleballoffur (Random walks, snowball sampling, Forest Fire, and more advanced Spikyball).
+* Conclusion and debriefing of Part I. Challenges, problems, data bottlenecks in large graphs and how to overcome them.
+* Some unsupervised and semi-supervised machine learning on graphs: clustering and community detection, label propagation, combining the graph structure with data on nodes (attributed graph). How to apply to large graphs: relation with part I) on graph sampling.
+* Exploring online data: online graph sampling via an API where access is limited. Example of Wikipedia and social networks (Reddit pushshift API or Twitter).
+* Mini project on real and fresh large graph data, using an API and combining what has been learned during the day.
+
+Each section (except the graph visualization with Gephi) is associated to a Jupyter notebook. These notebooks are described below.
+
+# Notebooks
+
+You can run the notebooks online by clicking on the binder button
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/epfl-lts2/GraphMining-TheWebConf2021/HEAD)
 
 You can also run them locally from your computer, check the [Local installation](#local-installation) section
 
@@ -19,7 +36,8 @@ The Tutorial will explore the world of (large) graphs using the following notebo
 * [Graph visualization using Gephi](https://github.com/mizvol/gephi-tutorials) 
 * `03_graph_exploration_and_sampling.ipynb` presents the algorithms for large graph exploration and graph sampling,
 * `04_ML_on_graphs.ipynb` proposes to experiment with unsupervised and semi-supervised machine learning on graphs,
-* `05_Reddit_Pushshift_API.ipynb` show in practice how to explore the Reddit social network through the Reddit Pushshift API.
+* `05_Reddit_Pushshift_API.ipynb` shows in practice how to explore the Reddit social network through the Reddit Pushshift API.
+* `06_exploring_wikipedia.ipynb` uses the Wikipedia API with the Spikyball approach to efficiently build a graph of pages and hyperlinks, enriched by additional page information.
 
 ![Reddit neighbors](figures/redditneighbors.png "Reddit neighbors")
 
